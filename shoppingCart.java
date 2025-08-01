@@ -25,5 +25,6 @@ public class shoppingCart {
 
         System.out.printf("Your total is: " + currency + "%.2f", total);
 
+        scanner.close();
     }
 }

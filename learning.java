@@ -1,9 +1,10 @@
+import java.util.Scanner;
 
 public class learning {
 
     public static void main(String[] args) {
         
-        arithmetic();
+        loops();
     }
 
     public static void arithmetic() {
@@ -32,5 +33,40 @@ public class learning {
 
 
         System.out.println(x);
+    }
+
+
+    public static void loops() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Please enter your age: ");
+        int age = scanner.nextInt();
+
+        /*
+         If you have a nextLine after a nextInt then it will cause
+         the value to autofill, add another scanner.nextLine() to prevent it
+        */
+        scanner.nextLine();
+
+        System.out.print("Please enter your name: ");
+        String name = scanner.nextLine();
+        
+        scanner.close();
+
+        if (name.isEmpty()) {
+            System.out.println("You didn't enter your name");
+            name = "Charles";
+        }
+        
+        if (age <= 18) {
+            System.out.println(name + " is a child");
+        } else if (age == 18) {
+            System.out.println(name + " is a teenager");
+        }else if (age <= 70) {
+            System.out.println(name + " is an adult");
+        } else {
+            System.out.println(name + " is a pensioner");
+        }
     }
 }
