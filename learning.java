@@ -1,10 +1,11 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class learning {
 
     public static void main(String[] args) {
         
-        loops();
+        randNum();
     }
 
     public static void arithmetic() {
@@ -68,5 +69,22 @@ public class learning {
         } else {
             System.out.println(name + " is a pensioner");
         }
+    }
+
+    public static void randNum() {
+
+        Random random = new Random();
+        //by default -2 billion to 2 billion
+        //numbers 1-6, param1 is inclusive, param2 exclusive
+        int intNum = random.nextInt(1, 7);
+        double doubleNum = random.nextInt(1, 101);
+
+        boolean isHeads = random.nextBoolean();
+
+        if (isHeads) {
+            System.out.println("Heads");
+        } else {
+            System.out.println("Tails");
+        };
     }
 }
