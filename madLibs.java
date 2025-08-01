@@ -12,15 +12,15 @@ public class madLibs {
         String verb1;
         String adjective3;
 
-        System.out.println("Please enter an adjective: ");
+        System.out.print("Please enter an adjective: ");
         adjective1 = scanner.nextLine();
-        System.out.println("Please enter a noun (animal or person): ");
+        System.out.print("Please enter a noun (animal or person): ");
         noun1 = scanner.nextLine();
-        System.out.println("Please enter an adjective: ");
+        System.out.print("Please enter an adjective: ");
         adjective2 = scanner.nextLine();
-        System.out.println("Please enter a verb ending in -ing: ");
+        System.out.print("Please enter a verb ending in -ing: ");
         verb1 = scanner.nextLine();
-        System.out.println("Please enter an adjective: ");
+        System.out.print("Please enter an adjective: ");
         adjective3 = scanner.nextLine();
 
         System.out.println("\nToday I went to a " + adjective1 + " zoo.");
