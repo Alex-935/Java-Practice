@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        randNum();
+        mathClass();
     }
 
     public static void arithmetic() {
@@ -86,5 +86,23 @@ public class learning {
         } else {
             System.out.println("Tails");
         };
+    }
+
+    public static void mathClass() {
+
+        double pi = Math.PI;
+        double eulers = Math.E;
+
+        double nine = Math.pow(3, 2);
+        double three = Math.sqrt(nine);
+        double four = Math.abs(-4);
+        double five = Math.round(5.13);
+        double seven = Math.ceil(6.1);
+        double eight = Math.floor(8.1);
+        int max = Math.max(5, 12);
+        int min = Math.min(7, 3);
+
+        System.out.print(eight);
+
     }
 }
