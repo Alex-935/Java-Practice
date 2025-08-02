@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        printf();
+        substrings();
     }
 
     public static void arithmetic() {
@@ -180,5 +180,46 @@ public class learning {
         System.out.printf("%-4d\n", id2);
         System.out.printf("%-4d\n", id3);
         System.out.printf("%-4d\n", id4);
+    }
+
+    public static void stringMethods() {
+
+        String name = "Obi-Wan Kenobi";
+        System.out.println(name.length());
+
+        char secondLetter = name.charAt(1);
+        int indexOfL = name.indexOf('l');
+        int lastIndexOf = name.lastIndexOf("i");
+
+        String nameUpper = name.toUpperCase();
+        String nameLower = name.toLowerCase();
+
+        String nameSpaced = "    Anakin    ";
+        String name2 = nameSpaced.trim();
+
+        name2 = name2.replace("Anakin", "Darth Vader");
+
+        name.isEmpty();// returns true or false
+        name.contains("a");
+        name.equals(name2);
+        name.equalsIgnoreCase(name2);
+
+        System.out.printf("%s says: Hello There\n", name);
+    }
+
+    public static void substrings() {
+
+        String email = "droideka@photonmail.com";
+        //second index exclusive
+        String droid = email.substring(0, 8);
+        String domain = email.substring(9);
+
+        System.out.println("The droid you are looking for is a " + droid);
+
+        String userEmail = "ServiceDroid@YAOO.com";
+        String droidName = userEmail.substring(0, userEmail.indexOf('@'));
+        String userDomain = userEmail.substring(userEmail.indexOf('@') + 1);
+
+        System.out.println("Droid: " + droidName + "\nUser Domain: " + userDomain);
     }
 }
