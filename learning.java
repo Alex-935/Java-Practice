@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        substrings();
+        ternaryOperators();
     }
 
     public static void arithmetic() {
@@ -222,4 +222,20 @@ public class learning {
 
         System.out.println("Droid: " + droidName + "\nUser Domain: " + userDomain);
     }
+
+    public static void ternaryOperators() {
+
+      int score = 32;
+      
+      String passOrFail = (score >= 60) ? "Pass" : "Fail";
+
+      String evenOrOdd = (score % 2 == 0) ? "Even" : "Odd";
+
+      int hours = 13;
+      String timeOfDay = (hours < 12) ? (hours + " A.M") : (hours - 12 + " P.M");
+
+      System.out.println(timeOfDay);
+    }
+
+    
 }
