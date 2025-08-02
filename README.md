@@ -6,4 +6,5 @@
 - learning.java: Various random pieces of Java covering a range of topics
 - madLibs.java: Creates a program that plays the game Mad Libs.
 - shoppingCart: Calculates the total price of an item given the price and quantity.
+- temperatureConverter.java: Converts from celcius to fahrenheit and vice versa for a given temperature.
 - weightConversion.java: Gives uses the option to convert kgs to lbs or lbs to kgs, then converts the given weight.
