@@ -15,7 +15,7 @@ public class weightConversion {
 
         while (!accept) {
 
-            System.out.println("Which option would you like, 1 or 2: ");
+            System.out.print("Which option would you like, 1 or 2: ");
             option = scanner.nextInt();
 
             if (option == 1 || option == 2) {
