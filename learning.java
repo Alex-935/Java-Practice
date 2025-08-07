@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        forLoops();
+        nestedLoops();
     }
 
     public static void arithmetic() {
@@ -327,6 +327,39 @@ public class learning {
         for (int i = 3; i < 37 ; i+=3) {
             
             System.out.println(i);
+        }
+    }
+
+    public static void loopsContinued() {
+
+        //break - breaks out of a loop
+        //continue - skip current iteration of a loop
+
+        for (int i = 0; i < 10; i++) {
+            
+            if (i == 5) {
+                continue;
+            }
+
+            if (i == 8) {
+                break;
+            }
+
+            System.out.println(i);
+        }
+    }
+
+    public static void nestedLoops() {
+
+        //creates a matrix
+        for (int i = 1; i <= 3; i++) {
+
+            for (int j = 1; j < 10; j++) {
+                
+                System.out.print(j + " ");
+            }
+
+            System.out.println();
         }
     }
 }
