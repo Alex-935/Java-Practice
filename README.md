@@ -4,6 +4,7 @@
 - cirlce.java: Finds circumference, area and volume of a circle/sphere given a radius.
 - countdown.java: counts down a set number of seconds.
 - createSymbolMatrix.java: Creates a matrix of a user specified dimension and symbol.
+- diceRollerProject.java: Asks the user for how many dice they want to roll aand prints out the results, with a roll total.
 - hypotenuse.java: Find the hypotenuse of a triangle given a and b.
 - interestCalculator.java: Calculates the amount of interest after a given number of years for a given interest rate.
 - learning.java: Various random pieces of Java covering a range of topics
