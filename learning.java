@@ -6,7 +6,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        arrays();
+        searchArrays();
     }
 
     public static void arithmetic() {
@@ -487,12 +487,29 @@ public class learning {
                 System.out.println("Element found at index " + i);
                 break;
             }
-            if (!isFound) {
-                System.out.println("Element not in array");
-            }
         }
+        if (!isFound) {
+            System.out.println("Element not in array");
+        }
+        
 
         //for strings, you have to use if (fruits[i.equals(searchTarget)])#
         //as strings are referential
+
+        String[] fruits = {"Apple", "Orange", "Pineapple"};
+        String target = "Pineapple";
+        isFound = false;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (fruits[i].equals(target)) {
+                isFound = true;
+                System.out.println("Element found at index " + i);
+                break;
+            }
+        }
+
+        if (!isFound) {
+            System.out.println("Element not in array");
+        }
     }
 }
