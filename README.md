@@ -1,5 +1,6 @@
 # Java-Practice
 
+- calculatorProject.java: Takes in two numbers and an operator and prints the result.
 - cirlce.java: Finds circumference, area and volume of a circle/sphere given a radius.
 - hypotenuse.java: Find the hypotenuse of a triangle given a and b.
 - interestCalculator.java: Calculates the amount of interest after a given number of years for a given interest rate.
