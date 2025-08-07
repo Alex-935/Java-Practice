@@ -474,4 +474,25 @@ public class learning {
 
         scanner.close();
     }
+
+    public static void searchArrays() {
+
+        int[] numbers = {2, 5, 7, 9, 13, 45, 7, 4};
+        int searchTarget = 4;
+        boolean isFound = false;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (searchTarget == numbers[i]) {
+                isFound = true;
+                System.out.println("Element found at index " + i);
+                break;
+            }
+            if (!isFound) {
+                System.out.println("Element not in array");
+            }
+        }
+
+        //for strings, you have to use if (fruits[i.equals(searchTarget)])#
+        //as strings are referential
+    }
 }
