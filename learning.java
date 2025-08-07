@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        operators();
+        whileLoops();
     }
 
     public static void arithmetic() {
@@ -285,5 +285,34 @@ public class learning {
             System.out.println("The weather is bad");
         }
 
+    }
+
+    public static void whileLoops() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        String name = "";
+
+        while (name.isEmpty()) { 
+            System.out.print("Please enter your name: ");
+            name = scanner.nextLine();
+        }
+
+        System.out.println("Hello " + name);
+
+
+
+        //do while loop. Runs the code once before checking the condition
+        int age;
+
+        do {
+            System.out.println("Make sure your age is valid");
+            System.out.print("Please enter your age: ");
+            age = scanner.nextInt();
+        } while (age < 0 || age > 125);
+
+        System.out.println("You are " + age + " years old.");
+
+        scanner.close();
     }
 }
