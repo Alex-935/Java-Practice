@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        nestedLoops();
+        methods();
     }
 
     public static void arithmetic() {
@@ -362,4 +362,35 @@ public class learning {
             System.out.println();
         }
     }
+
+    public static void methods() {
+
+        birthdayMessage("Anakin");
+
+        double num = 3.0;
+        double ans = squareNum(num);
+        System.out.println(squareNum(num));
+    }
+
+    //as happyBirthday is being called from a static method, this needs to also be static
+    static void happyBirthday() {
+
+        System.out.println("Happy Birthday to you!");
+
+    }
+
+    static void birthdayMessage(String name) {
+        
+        happyBirthday();
+        happyBirthday();
+        System.out.printf("Happy Birthday dear %s!\n", name);
+        happyBirthday();
+    }
+
+    static double squareNum(double num) {
+
+        return Math.pow(num, 2);
+    }
+
+    //
 }
