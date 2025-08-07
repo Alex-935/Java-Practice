@@ -1,5 +1,6 @@
 # Java-Practice
 
+- bankingProgramProject.java: Gives the users the option to display balance, deposit, withdraw or exit. Validates amounts to make sure actions are possible.
 - calculatorProject.java: Takes in two numbers and an operator and prints the result.
 - cirlce.java: Finds circumference, area and volume of a circle/sphere given a radius.
 - countdown.java: counts down a set number of seconds.
