@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        whileLoops();
+        forLoops();
     }
 
     public static void arithmetic() {
@@ -314,5 +314,19 @@ public class learning {
         System.out.println("You are " + age + " years old.");
 
         scanner.close();
+    }
+
+    public static void forLoops() {
+
+        for (int i = 0; i < 12 ; i++) {
+            
+            System.out.println((i + 1) * 12);
+        }
+
+        // 3 times table
+        for (int i = 3; i < 37 ; i+=3) {
+            
+            System.out.println(i);
+        }
     }
 }
