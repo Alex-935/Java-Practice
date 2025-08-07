@@ -6,7 +6,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        searchArrays();
+        twoDArrays();
     }
 
     public static void arithmetic() {
@@ -510,6 +510,62 @@ public class learning {
 
         if (!isFound) {
             System.out.println("Element not in array");
+        }
+    }
+
+    public static void variableArguements() {
+
+        /*
+         Variable Arguements - allow a method to accept a varying
+         # of arguements.
+         makes methods more flexible, no need for overloaded methods
+         java will pack the arguements into an array
+         takes ... (elipses) as parameter
+        */
+
+        System.out.println(addVariable(7, 4, 6, 8));
+        System.out.println(average(7, 9, 11, 24));
+    }
+
+    static int addVariable(int ... numbers) {
+
+        int sum = 0;
+
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum;
+    }
+
+    static double average(double ... numbers) {
+
+        double sum = 0;
+
+        if (numbers.length == 0) {
+            return 0;
+        }
+
+        for (double number : numbers) {
+            sum += number;
+        }
+        return sum / numbers.length;
+    }
+
+    public static void twoDArrays() {
+
+        //2D Arrays - an array where each element is an array
+        String[] fruits = {"apple", "orange", "banana"}; 
+        String[] vegetables = {"potato", "carrot", "onion"};
+        String[] meat = {"beef", "lamb", "pork", "fish"};
+        String[][] groceries = {fruits, vegetables, meat};
+
+        groceries[2][3] = "chicken";
+
+        for (String[] foods : groceries) {
+            for (String food : foods) {
+                System.out.print(food + " ");
+            }
+            System.out.println();
         }
     }
 }
