@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        methods();
+        overloadedMethods();
     }
 
     public static void arithmetic() {
@@ -392,5 +392,21 @@ public class learning {
         return Math.pow(num, 2);
     }
 
-    //
+
+
+    public static void overloadedMethods() {
+
+        //This is when two methods have the same name but different functionality
+
+        add(2, 7);
+        add(2, 7, 6);
+    }
+
+    static double add(double a, double b) {
+        return a + b;
+    }
+
+    static double add(double a, double b, double c) {
+        return a + b + c;
+    }
 }
