@@ -21,8 +21,14 @@
 - madLibs.java: Creates a program that plays the game Mad Libs.
   
 - numberGuessingGame.java: Keep guessing the number until you get it. Higher and lower responses will help you narrow down the possible values.
+
+- quizGame.java: Displays a quiz of 5 questions and the user guesses the answers. Their score is printed at the end.
+
+- rockPaperScissors.java: A gamme of rock, paper, scissors against a computer. There is an option to replay at the end.
   
 - shoppingCart: Calculates the total price of an item given the price and quantity.
+
+- telephone.java: Prints out an old-style telephone.
   
 - temperatureConverter.java: Converts from celcius to fahrenheit and vice versa for a given temperature.
   
