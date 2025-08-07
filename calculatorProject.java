@@ -15,6 +15,8 @@ public class calculatorProject {
         System.out.print("Please enter your second number: ");
         double number2 = scanner.nextInt();
 
+        scanner.close();
+
         double result = 0;
         boolean validOp = true;
 

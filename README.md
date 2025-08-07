@@ -8,4 +8,16 @@
 - madLibs.java: Creates a program that plays the game Mad Libs.
 - shoppingCart: Calculates the total price of an item given the price and quantity.
 - temperatureConverter.java: Converts from celcius to fahrenheit and vice versa for a given temperature.
+- validateUsername.java: Validates and enetered uisername to make sure it meets the requirements.
 - weightConversion.java: Gives uses the option to convert kgs to lbs or lbs to kgs, then converts the given weight.
+
+
+alt codes for personal reference: 
+ - \ - alt + 92
+ - | - alt + 124
+
+ - ² - alt + 253
+ - ³ - alt + 252
+ - ° - alt + 248
+ - · - alt + 250
+ - ± - alt + 241
