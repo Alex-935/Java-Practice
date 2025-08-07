@@ -4,6 +4,7 @@
 - cirlce.java: Finds circumference, area and volume of a circle/sphere given a radius.
 - hypotenuse.java: Find the hypotenuse of a triangle given a and b.
 - countdown.java: counts down a set number of seconds.
+- createSymbolMatrix.java: Creates a matrix of a user specified dimension and symbol.
 - interestCalculator.java: Calculates the amount of interest after a given number of years for a given interest rate.
 - learning.java: Various random pieces of Java covering a range of topics
 - madLibs.java: Creates a program that plays the game Mad Libs.
