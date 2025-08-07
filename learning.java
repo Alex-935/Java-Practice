@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -5,7 +6,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        overloadedMethods();
+        arrays();
     }
 
     public static void arithmetic() {
@@ -408,5 +409,69 @@ public class learning {
 
     static double add(double a, double b, double c) {
         return a + b + c;
+    }
+
+
+
+    public static void arrays() {
+
+        //can only have values of the same data type, and have a fixed length
+        String[] fruits = {"Apple", "Orange", "Banana"};
+
+        int[] numbers = {2, 1, 4, 5};
+        //Arrays are formed:   dataType[] _variable_ = {}
+
+        System.out.println(fruits[0]);
+
+        //change value
+        fruits[0] = "Cherry";
+
+        //length
+        int fruitsLen = fruits.length;
+
+        for (int i = 0; i < fruitsLen; i++) {
+            System.out.print(fruits[i] + ", ");
+        }
+        System.out.println();
+
+        //for fruit in fruits: / enhanced for loops
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+
+        //sort
+        //needs import java.util.Arrays;
+        Arrays.sort(fruits);
+
+        //replaces each item in array with Pineapple
+        Arrays.fill(fruits, "Pineapple");
+
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+
+
+        //because you cannot change an array's size, we can define a valueless array of length 3 as so
+        //String[] foods = new String[3];
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("How many food items do you want: ");
+        int size = scanner.nextInt();
+        scanner.nextLine();
+
+        String[] foods = new String[size];
+
+        for (int i = 0; i < size; i++) {
+
+            System.out.print("Please enter your food item: ");
+            foods[i] = scanner.nextLine();
+        }
+
+        for (String food : foods) {
+            System.out.print(food + " ");
+        }
+
+        scanner.close();
     }
 }
