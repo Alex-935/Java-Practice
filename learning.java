@@ -5,7 +5,7 @@ public class learning {
 
     public static void main(String[] args) {
         
-        switchStatements();
+        operators();
     }
 
     public static void arithmetic() {
@@ -264,6 +264,25 @@ public class learning {
             case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" -> System.out.println("It is a weekday");
             case "Saturday", "Sunday" -> System.out.println("It is the weekend");
             default -> System.out.println(day + " is not a day");
+        }
+
+    }
+
+    public static void operators() {
+
+        //&& AND
+        //|| OR, alt + 124
+        //! not
+
+        double temp = 40;
+        boolean isSunny = true;
+
+        if (temp <= 30 && temp >= 0 && isSunny) {
+            System.out.println("The weather is sunny");
+        } else if (temp <= 30 && temp >= 0 && !isSunny) {
+            System.out.println("The weather is good");
+        } else if (temp >= 30 || temp <= 0) {
+            System.out.println("The weather is bad");
         }
 
     }
