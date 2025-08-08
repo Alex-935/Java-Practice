@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class rockPaperScissors {
+public class __rockPaperScissors {
     
     public static void main(String[] args) {
 
