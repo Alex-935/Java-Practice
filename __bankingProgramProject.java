@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bankingProgramProject {
+public class __bankingProgramProject {
     
     //makes scanner part of the class scope
     static Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class quizGame {
+public class __quizGame {
     
     public static void main() {
 
