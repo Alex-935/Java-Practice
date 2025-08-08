@@ -26,7 +26,7 @@
 
 - quizGame.java: Displays a quiz of 5 questions and the user guesses the answers. Their score is printed at the end.
 
-- rockPaperScissors.java: A gamme of rock, paper, scissors against a computer. There is an option to replay at the end.
+- rockPaperScissors.java: A game of rock, paper, scissors against a computer. There is an option to replay at the end.
   
 - shoppingCart: Calculates the total price of an item given the price and quantity.
 
