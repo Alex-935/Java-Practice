@@ -28,6 +28,8 @@
   
 - shoppingCart: Calculates the total price of an item given the price and quantity.
 
+- slotMachine.java: Lets you bet money on slots and you receive a payout if you match 2 or more symbols in a row. Feel free to withdraw your balance at any time. £100 starting balance, and remember, always gamble responsibly.
+
 - telephone.java: Prints out an old-style telephone.
   
 - temperatureConverter.java: Converts from celcius to fahrenheit and vice versa for a given temperature.
